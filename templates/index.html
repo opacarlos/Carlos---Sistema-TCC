@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web App</title>
+</head>
+<body>
+    <center><h1>Sistema</h1></center>
+    Ver falhas por:
+    <a href="{{ url_for('index') }}"><button>Precipitação</button></a>
+    <a href="{{ url_for('temperatura') }}"><button>Temperatura</button></a><br>
+    
+    <!-- Include the map -->
+    <!-- Include the map -->
+    {{ map_html | safe }}
+    
+</body>
+</html>

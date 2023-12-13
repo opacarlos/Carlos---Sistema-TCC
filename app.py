@@ -9,10 +9,10 @@ app = Flask(__name__)
 
 #Armazenando o nome de cidade, localização com latitude e longitude, e imagem gerada do gráfico
 cities = [
-    {'name': 'Fortaleza', 'location': [-3.7364419466541583, -38.524770437782074], 'img': 'Precipitação_Fortaleza.png'},
-    {'name': 'Belém', 'location': [-1.4587276649923475, -48.50181712356305], 'img': 'Precipitação_Belém.png'},
-    {'name': 'Manaus', 'location': [-3.119385530637084, -60.01931048636225], 'img': 'Precipitação_Manaus.png'},
-    {'name': 'João Pessoa', 'location': [-7.118666920739596, -34.87233308724278], 'img': 'Precipitação_João Pessoa.png'}
+    {'name': 'Fortaleza', 'location': [-3.7364419466541583, -38.524770437782074]},
+    {'name': 'Belém', 'location': [-1.4587276649923475, -48.50181712356305]},
+    {'name': 'Manaus', 'location': [-3.119385530637084, -60.01931048636225]},
+    {'name': 'João Pessoa', 'location': [-7.118666920739596, -34.87233308724278]}
 ]
 
 #Criando o mapa

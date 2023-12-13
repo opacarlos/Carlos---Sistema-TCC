@@ -73,7 +73,7 @@ def temperatura():
     #Uma repetição para cada cidade
     for city in cities:
         #Capturando caminho do arquivo a ser lido
-        caminho_arquivo = 'Cidades/'+city['name']+'.xlsx'
+        caminho_arquivo = 'cidades/'+city['name']+'.xlsx'
         #Lendo o arquivo com Pandas
         df = pd.read_excel(caminho_arquivo)
         #Lendo o arquivo para Teste T da precipitação com Pandas

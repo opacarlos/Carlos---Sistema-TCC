@@ -8,6 +8,7 @@ Para executar a aplicação, o arquivo ZIP disponível no [Google Drive](https:/
 - Na pasta "cidades" se encontram os arquivos lidos pela aplicação;
 - A pasta "dataset" é onde se encontra o dataset disponibilizado pela empresa
 - As pastas static/imagens é o local onde os gráficos gerados vão ser armazenados
+
 Depois, no seu terminal, acesse o diretório principal e execute o comando "flask run"
 
 Observações:

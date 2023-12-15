@@ -11,9 +11,10 @@ Para executar a aplicação, o arquivo ZIP disponível no [Google Drive](https:/
 
 Observações:
 - Antes da execução, certifique-se de que seu ambiente possua o framework e as bibliotecas seguintes:
-  - Flask
-  - Folium
-  - stats do Scipy
-  - Matplotlib
-  - Pandas
-- A pasta "dataset" não é utilizado pela aplicação, somente a pasta "cidades".
+  - Flask (pip install Flask)
+  - Folium (pip install folium. Provavelmente, você deverá instala-lo globalmente)
+  - Scipy (pip install scipy)
+  - Matplotlib (pip install matplotlib)
+  - Pandas(pip install pandas)
+  - Openpyxl (pip install openpyxl)
+- A pasta "dataset", que é onde está localizado o dataset de contribuição para a comunidade, não é utilizado pela aplicação, somente a pasta "cidades".

@@ -10,7 +10,7 @@ Para executar a aplicação, o arquivo ZIP disponível no [Google Drive](https:/
 - As pastas static/imagens é o local onde os gráficos gerados vão ser armazenados
 
 Observações:
-- Antes da execução, certifique-se de que seu ambiente possua o framework e as bibliotecas seguintes:
+- Antes da execução, certifique-se de que seu ambiente possua o Python instalado. E também, o framework e as bibliotecas seguintes:
   - Flask (pip install Flask)
   - Folium (pip install folium. Provavelmente, você deverá instala-lo globalmente)
   - Scipy (pip install scipy)
